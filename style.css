@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(purple-galaxy-abstract-background-Top.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pric-table {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.cool {
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.table {
+    background: white;
+    padding: 30px 20px;
+    font-family: "montserrat",sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+.table h2 {
+    text-transform: uppercase;
+}
+.table ul {
+    margin: 0;
+    padding: 0;
+}
+.table ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+.price {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.price span {
+    display: block;
+    font-size: 14px;
+}
+.table a {
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid rgb(123, 61, 181);
+    display: block;
+    padding: 10px 5px;
+    margin: 25px 15px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.5s linear;
+}
+.table a:hover {
+    background: rgba(132, 0, 255, 0.57);
+    color: darkmagenta;
+}
+.famous {
+    background: rgba(132, 0, 255, 0.57);
+    color: white;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top: 16px;
+    right: -34px;
+}
